@@ -40,7 +40,8 @@
 
 main,
 .navbar,
-.banner {
+.banner,
+footer {
   max-width: 1440px;
   margin: 0 auto;
 }
@@ -219,6 +220,22 @@ main > section {
 .sponsor-companies img {
   filter: grayscale(100%);
   -webkit-filter: grayscale(100%);
+}
+
+footer{
+    padding: 130px 0 250px 0;
+}
+.copyright{
+    padding: 38px 0;
+    text-align: center;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+.footer-description{
+    font-size: 1.25rem;
 }
 
 /* Responsive Media Query */
